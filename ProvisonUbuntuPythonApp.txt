@@ -1,0 +1,37 @@
+Provision ubuntu server 18.04 for deployment python app
+
+######## Step 1 #############
+Updte the server with the command 
+
+sudo apt update
+
+######## Step 2 #############
+Install virtualenv
+
+sudo apt install virtualenv
+
+######## Step 3 #############
+Create virtualenv env in the home folder
+
+virtualenv --python=`which python3` env
+
+######## Step 4 #############
+Install the dependencies with requirements.txt
+
+/home/ubuntu/env/bin/pip install -r requirements.txt
+
+######## Step 5 #############
+Create services folder and directory project folder
+
+mkdir /home/ubuntu/services/<projectname>
+
+######## Step 6 ##############
+Create service file
+
+
+######## Step 7 ##########
+Install nginx
+
+
+######## Step 8 ##########
+Add nginx conf file
