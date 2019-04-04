@@ -35,3 +35,11 @@ Install nginx
 
 ######## Step 8 ##########
 Add nginx conf file
+
+
+###### Step 9 ##########
+Install SSL certificates either custom or Letsencrypt
+
+###### Step 10 #########
+Ensure that app is being accessed from outside
+
